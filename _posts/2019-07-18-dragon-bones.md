@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Dragon Bones"
+subtitle: "what it feels like to be a first-time systems architect with no guidance and looming deadlines"
 date: 2019-07-18 01:11:11 -0700
 tag: 
 - software_design
@@ -10,10 +11,8 @@ tag:
 - first_person
 comments: true
 ---
-
-### *Alternatively: what it feels like to be a first-time systems architect with no guidance and looming deadlines*
-
-I ought to start with a disclaimer: I am *not* a systems architect. I have no background in systems architecture. I have questionable background in proper software engineering, if we’re being completely honest here. I am fundamentally a researcher who happens to have found himself, entirely due to his own actions, in the temporary role of a systems architect. Not only that, but the software that I have volunteered to re-design from the ground up is a piece of infrastructure that is critical to multiple functions of the hedge fund that I work for, and which at runtime involves processing of huge volumes of data and asynchronous execution of complex tasks. Some might call me a fool, or a masochist. I fear they are correct on both counts. 
+    
+I ought to start with a disclaimer: I am *not* a systems architect. I have no background in systems architecture. I have a questionable background in proper software engineering, if we’re being completely honest here. I am fundamentally a researcher who happens to have found himself, entirely due to his own actions, in the temporary role of a systems architect. Not only that, but the software that I have volunteered to re-design from the ground up is a piece of infrastructure that is critical to multiple functions of the hedge fund that I work for, and which at runtime involves processing of huge volumes of data and asynchronous execution of complex tasks. Some might call me a fool, or a masochist. I fear they are correct on both counts. 
 
 Finding myself in such a predicament, I have decided to do what many fools do when faced with self-inflicted adversity: share it with strangers on the internet! My sideways tumble into the world of software design over the last month or so has been an intriguing one, and I thought that at a minimum others might take something useful away from my suffering (or at least find humor in pointing out my obvious blunders as I charge headfirst into them). Unfortunately, as I do happen to work for a hedge fund, I’ll be required to keep certain design decisions and many implementation details vague. I hope that what I am able to discuss, especially considering design philosophy and my personal experiences, remains interesting. 
 
