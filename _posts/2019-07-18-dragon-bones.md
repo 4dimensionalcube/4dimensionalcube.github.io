@@ -10,7 +10,7 @@ tag:
 comments: true
 ---
 
-## Alternatively: "what it feels like to be a first-time systems architect with no guidance and looming deadlines"
+### *Alternatively: "what it feels like to be a first-time systems architect with no guidance and looming deadlines"*
 
 I ought to start with a disclaimer: I am *not* a systems architect. I have no background in systems architecture. I have questionable background in proper software engineering, if we’re being completely honest here. I am fundamentally a researcher who happens to have found himself, entirely due to his own actions, in the temporary role of a systems architect. Not only that, but the software that I have volunteered to re-design from the ground up is a piece of infrastructure that is critical to multiple functions of the hedge fund that I work for, and which at runtime involves processing of huge volumes of data and asynchronous execution of complex tasks. Some might call me a fool, or a masochist. I fear they are correct on both counts. 
 
@@ -22,6 +22,7 @@ At the time of writing I’ve just about completed a critical step towards the r
 - An existing piece of software implementing most of the functionality required is available (the new project essentially involves replacing this software, as it is extremely old legacy code and maintaining it has become too difficult)
 - The program has strict speed requirements and cannot ship if these requirements are not met
 - The program must be extraordinarily error tolerant, with comprehensive error capture, reporting, and handling facilities
+
 As such, I feel fairly confident that a waterfallish formal-methods type approach to the design of the system is appropriate. Any possible changes to the operating environment or system requirements are highly predictable, and as a design constraint all possible behavioral modes and error states must be identified and accounted for. This, of course, does not mean that designing the system was easy. 
 
 Over the last week, when not slaving over this system architecture proposal or doing other hedge fund research things, I’ve been hallucinating some metaphors for this stage in the architecture process. At the very beginning, it felt awesome. Right in front of me was the opportunity to gain some leadership experience and improve my life as a researcher by taking initiative and orchestrating the rewrite of an aging, unmaintainable suite of core tools that everyone knew needed to go. I was going to go out, put to sleep this tumor-ridden workhorse of a system, and come back riding on a goddamned dragon. The excitement of deciding what I wanted our dragon to look like was a bit infectious, and soon there were conversations among the research team around the clock about how much this awesome new project was going to improve our capabilities as a group. By the time we had laid out our wish list it was also going to give everyone a daily foot massage and make their morning coffee. 
