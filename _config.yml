@@ -1,0 +1,63 @@
+# Site
+title: 4dimensionalcube
+email: tim.ireland@4dimensionalcube.info
+# bio: 'Welcome to 4dimensionalcube' Needs to be some pithy quote . . . 
+description: >- 
+  A blog about data science, quantitative finance, physics, math, and occasionally philosophy. 
+url: #"https://4dimensionalcube.github.io" 
+host: 0.0.0.0
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/tesseract_logo_wline_512.png'
+background:         'assets/img/ins_trim.jpg'
+tiled_bg:           false   
+locale:             en_US
+# twitter_username: 4dimcube
+# github_username: 4dimensionalcube
+
+# Build settings
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+disqus_shortname:   4dimensionalcube
+
+exclude: 
+  - README.md 
+  - Gemfile 
+  - Gemfile.lock 
+  - _site 
+  - LICENSE 
+
+#google:
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+twitter:            4dimcube
+#github-url:        username
+linkedin:           4dimensionalcube
+instagram:          4dimensionalcube
+#youtube:           username
+#youtube-channel:   channel
+twitch:             4dimcube
+
+plugins:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+

@@ -1,0 +1,2 @@
+# 4dimensionalcube.github.io
+This repo houses the 4dimensionalcube blog! Feel free to take a look around. Currently there's not much other than a rather standard Jekyll site, but I'll certainly be experimenting with new features and formats when the opportunity arises. 
