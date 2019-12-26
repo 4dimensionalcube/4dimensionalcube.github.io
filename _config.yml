@@ -12,8 +12,6 @@ logo:               'assets/img/tesseract_logo_wline_512.png'
 background:         'assets/img/ins_trim.jpg'
 tiled_bg:           false   
 locale:             en_US
-# twitter_username: 4dimcube
-# github_username: 4dimensionalcube
 
 # Build settings
 permalink:          /:title/
