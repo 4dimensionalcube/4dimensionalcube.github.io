@@ -11,17 +11,17 @@ Given this, I think it might be a good idea to provide some basic information re
 
 First, a side note: [Investopedia][investopedia] provides a rather good resource for the description of various financial instruments and financial jargon. I certainly recommend a look around if you find yourself wondering what makes an [iron butterfly][ironbutterfly] different from an [iron condor][ironcondor] or curious what sort of [exotic options][exoticoptions] are available off the market. That said, my goal here *is not* to compete with investopedia as an encyclopedia of finance terms. Rather, I'd like to try to develop a holistic understanding of more fundamental ideas in finance from first principles,ideally with some math and examples to help motivate understanding of these topics. The ultimate goal is to approach things like risk and performance carefully enough that a total beginner isn't intimidated, but a professional analyst still walks away with something to think about.
 
-#Risk
+# Risk
 
-##Related Posts
+### Related Posts
 
-#Volatility
+# Volatility
 
-##Related Posts
+### Related Posts
 
-#Performance
+# Performance
 
-##Related Posts
+### Related Posts
 
 [investopedia]:www.investopedia.com
 [ironbutterfly]:https://www.investopedia.com/terms/i/ironbutterfly.asp
